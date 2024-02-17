@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <!--Linking the CSS file-->
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+      
+        <div id="main">
+            <!--First div has the login page and the logo of the web application-->
+            <div id="left">
+                <h2>Hello and Welcome!</h2>
+                <p id="welcome">Please type in your email address and password to sign in.</p>
+                <br>
+
+                <!--Log In Form-->
+                <form id="login" action="">
+                    <!--Input box for email-->
+                    <label class="label" for="email">EMAIL</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                    <br><br>
+
+                    <!--Input box for password-->
+                    <label class = "label" for="password">PASSWORD</label>
+                    <br>
+                    <input type="password" name="password" id="password">
+                    <br><br>
+
+                    <!--Submit button-->
+                    <input id="submit" type="submit" value="Log In">
+
+                </form>
+                <br>
+
+                <p id="noaccount">Don't have an account?
+                    <a class="link" href="registration.html">Sign Up for Free</a>
+                </p>
+                <br>
+
+                <a id="forgotpassword" href="forgotpassword.html">Forgot Password?</a>
+
+
+            </div>
+
+            <div id="right">
+                <p id="rightintro">
+                    Experience our new and improved eSign web app.
+                </p>
+
+                <p id="rightdescription">
+                    Crisp design, new functionality and simplified navigation,
+                    all to make it easier for you to manage your documents
+                </p>
+                <br>
+
+                <!--Read more button-->
+                <button id="readmore" type="button">READ MORE</button>
+
+            </div>
+
+        </div>
+        
+    </body>
+
+    <!--Running JS file linked to HTML page-->
+    <script src="main.js"></script>
+</html>
